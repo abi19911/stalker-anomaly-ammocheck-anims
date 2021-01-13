@@ -14,19 +14,19 @@ The animations are bound to have bugs as I have not tested them ingame, I'm not 
 <details>
   <summary>an94(abakan)</summary>
   
-![9a91](https://media.giphy.com/media/fcPZJSg8VJz0STQ9u2/giphy.gif)
+![an94](https://media.giphy.com/media/fcPZJSg8VJz0STQ9u2/giphy.gif)
 </details>
 
 <details>
   <summary>ace21</summary>
   
-![ace21](https://media.giphy.com/media/H1tGYbeA3mE9TL0yH2/giphy.gif)
+![ace21](https://media.giphy.com/media/N3p4wBl7XmpopLanlm/giphy.gif)
 </details>
 
 <details>
   <summary>mp5sd</summary>
   
-![9a91](https://media.giphy.com/media/92MTIMIGR7h2SiAvP8/giphy.gif)
+![mp5sd](https://media.giphy.com/media/92MTIMIGR7h2SiAvP8/giphy.gif)
 </details>
 
 ### Contact
