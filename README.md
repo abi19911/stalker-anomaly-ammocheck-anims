@@ -20,7 +20,7 @@ The animations are bound to have bugs as I have not tested them ingame, I'm not 
 <details>
   <summary>ace21</summary>
   
-![ace21](https://media.giphy.com/media/oYSJPkrk8KMOlf48nF/giphy.gif)
+![ace21](https://media.giphy.com/media/H1tGYbeA3mE9TL0yH2/giphy.gif)
 </details>
 
 <details>
