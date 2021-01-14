@@ -24,6 +24,12 @@ The animations are bound to have bugs as I have not tested them ingame, I'm not 
 </details>
 
 <details>
+  <summary>aek971</summary>
+  
+![aek971](https://media.giphy.com/media/ygplOyfwKilGnBJBhI/giphy.gif)
+</details>
+
+<details>
   <summary>mp5sd</summary>
   
 ![mp5sd](https://media.giphy.com/media/92MTIMIGR7h2SiAvP8/giphy.gif)
