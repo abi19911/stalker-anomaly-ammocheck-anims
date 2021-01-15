@@ -6,8 +6,8 @@ The animations are bound to have bugs as I have not tested them ingame, I'm not 
 
 ### Changelog
 ```
-15/Jan/21
-==========
+15/Jan/21 GMT+8
+===============
  + All anims as of this date are compiled at 30fps, will change to 60fps on finished products.
  + Audio may not be synced, fine-tuning will be required.
 ```
