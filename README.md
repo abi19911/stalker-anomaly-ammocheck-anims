@@ -4,6 +4,15 @@ concept animation designed for Zukuu's ammo check addon; [Moddb](https://www.mod
 ### Note
 The animations are bound to have bugs as I have not tested them ingame, I'm not really familiar with lua scripting; any help is appreciated on writing a script to test my anims.
 
+### Changelog
+```
+15/Jan/21
+==========
+ + All anims as of this date are compiled at 30fps, will change to 60fps on finished products.
+ + Audio may not be synced, fine-tuning will be required.
+```
+
+
 ### Weapons
 <details>
   <summary>9a91</summary>
