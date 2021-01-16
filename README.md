@@ -9,6 +9,7 @@ The animations are bound to have bugs as I have not tested them ingame, I'm not 
 17/Jan/21
 =========
  + Weapons 9a91, an94, and ace21 are compiled and ready to be used/tested ingame.
+   \_ Audio for these weapons also have been synced.
  + The aek971 is giving me alot of trouble when trying to translate from blender into stalker's engine. Will possibly have to animate from scratch. skipping for now.
 
 15/Jan/21
