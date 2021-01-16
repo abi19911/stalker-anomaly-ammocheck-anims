@@ -6,8 +6,13 @@ The animations are bound to have bugs as I have not tested them ingame, I'm not 
 
 ### Changelog
 ```
-15/Jan/21 GMT+8
-===============
+17/Jan/21
+=========
+ + Weapons 9a91, an94, and ace21 are compiled and ready to be used/tested ingame.
+ + The aek971 is giving me alot of trouble when trying to translate from blender into stalker's engine. Will possibly have to animate from scratch. skipping for now.
+
+15/Jan/21
+=========
  + All anims as of this date are compiled at 30fps, will change to 60fps on finished products.
  + Audio may not be synced, fine-tuning will be required.
 ```
