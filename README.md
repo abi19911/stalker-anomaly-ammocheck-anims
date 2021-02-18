@@ -8,6 +8,7 @@ The animations are bound to have bugs as I have not tested them ingame, I'm not 
 ```
 18/Feb/21
 =========
+ + Added ak/aks anims and audio.
  + Weapons mp5sd, and 9a91 (and their audio) have been updated. They can be considered done.
  side note: I figured out the correct way to animate the guns, hopefully things will go smoothly in coming updates :D
 
