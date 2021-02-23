@@ -2,62 +2,81 @@
 concept animation designed for Zukuu's ammo check addon; [Moddb](https://www.moddb.com/mods/stalker-anomaly/addons/ammocheck-rc18), [Github](https://github.com/WrkX/Stalker_Ammo_Check).
 
 ### Weapons
-<details>
-  <summary>9a91</summary>
-  
-![9a91](https://media.giphy.com/media/YIhG9ynnpefa6T5bns/giphy.gif)
-</details>
+9a91 | abakan(an94) | ace21 | aek971 | mp5sd | ak/aks | ak12 | ak74
 
-<details>
-  <summary>an94(abakan)</summary>
-  
-![an94](https://media.giphy.com/media/fcPZJSg8VJz0STQ9u2/giphy.gif)
-</details>
-
-<details>
-  <summary>ace21</summary>
-  
-![ace21](https://media.giphy.com/media/N3p4wBl7XmpopLanlm/giphy.gif)
-</details>
-
-<details>
-  <summary>aek971</summary>
-  
-![aek971](https://media.giphy.com/media/ygplOyfwKilGnBJBhI/giphy.gif)
-</details>
-
-<details>
-  <summary>mp5sd</summary>
-  
-![mp5sd](https://media.giphy.com/media/92MTIMIGR7h2SiAvP8/giphy.gif)
-</details>
-
-### Changelog
+### Script entries
 ```
-19/Feb/21
-=========
- + Fixed abakan, ace21 anims
- + Added aek971 anim
- + All audio files have been converted to 44.1k/mono
- + Moved all hand motions into single omf file
-
-18/Feb/21
-=========
- + Added ak/aks anims and audio.
- + Weapons mp5sd, and 9a91 (and their audio) have been updated. They can be considered done.
- side note: I figured out the correct way to animate the guns, hopefully things will go smoothly in coming updates :D
-
-17/Jan/21
-=========
- + Weapons 9a91, an94, and ace21 are compiled and ready to be used/tested ingame.
-   \_ Audio for these weapons also have been synced.
- + The aek971 is giving me alot of trouble when trying to translate from blender into stalker's engine. Will possibly have to animate from scratch. skipping for now.
-
-15/Jan/21
-=========
- + All anims as of this date are compiled at 30fps, will change to 60fps on finished products.
- + Audio may not be synced, fine-tuning will be required.
+gamedata/configs/define.ltx
+===========================
+--9a91
+anm_ammoCheck_wpn_9a91				= sparco_hands_9a91_check_ammo, sparco_9a91_check_ammo, 1
+--abakan
+anm_ammoCheck_wpn_abakan			= sparco_hands_abakan_check_ammo, sparco_abakan_check_ammo, 1
+--ak/s
+anm_ammoCheck_wpn_ak				= sparco_hands_ak_check_ammo, sparco_ak_check_ammo, 1
+anm_ammoCheck_wpn_ak_gl				= sparco_hands_ak_check_ammo_gl, sparco_ak_check_ammo, 1
+anm_ammoCheck_wpn_aks				= sparco_hands_ak_check_ammo, sparco_ak_check_ammo, 1
+anm_ammoCheck_wpn_aks_gl			= sparco_hands_ak_check_ammo_gl, sparco_ak_check_ammo, 1
+--ace21
+anm_ammoCheck_wpn_ace21				= sparco_hands_ace21_check_ammo, sparco_ace21_check_ammo, 1
+--aek
+anm_ammoCheck_wpn_aek				= sparco_hands_aek971_check_ammo, sparco_aek971_check_ammo, 1
+anm_ammoCheck_wpn_aek_camo			= sparco_hands_aek971_check_ammo, sparco_aek971_check_ammo, 1
+anm_ammoCheck_wpn_aek_gl			= sparco_hands_aek971_check_ammo_gl, sparco_aek971_check_ammo, 1
+anm_ammoCheck_wpn_aek_gl			= sparco_hands_aek971_check_ammo_gl, sparco_aek971_check_ammo, 1
+--ak12
+anm_ammoCheck_wpn_ak12				= sparco_hands_ak12_check_ammo, sparco_ak12_check_ammo, 1
+anm_ammoCheck_wpn_ak12_gl			= sparco_hands_ak12_check_ammo_gl, sparco_ak12_check_ammo, 1
+anm_ammoCheck_wpn_ak12_empty			= sparco_hands_ak12_check_ammo, sparco_ak12_check_ammo_empty, 1
+anm_ammoCheck_wpn_ak12_gl_empty			= sparco_hands_ak12_check_ammo_gl, sparco_ak12_check_ammo_empty, 1
+--ak74
+anm_ammoCheck_wpn_ak74				= sparco_hands_ak74_check_ammo, sparco_ak74_check_ammo, 1
+anm_ammoCheck_wpn_ak74_gl			= sparco_hands_ak74_check_ammo_gl, sparco_ak74_check_ammo, 1
+anm_ammoCheck_wpn_ak74_empty			= sparco_hands_ak74_check_ammo, sparco_ak74_check_ammo_empty, 1
+anm_ammoCheck_wpn_ak74_gl_empty			= sparco_hands_ak74_check_ammo_gl, sparco_ak74_check_ammo_empty, 1
+--mp5sd
+anm_ammoCheck_wpn_mp5sd				= sparco_hands_mp5sd_check_ammo, sparco_mp5sd_check_ammo, 1
+anm_ammoCheck_wpn_mp5sd_empty			= sparco_hands_mp5sd_check_ammo, sparco_mp5sd_check_ammo, 1
 ```
 
+```
+gamedata/configs/items/weapons/w_anm_config.ltx
+===============================================
+[9a91]
+snd = weapons\9a91\sparco_9a91_check_ammo
+tm = 4
+
+[abakan]
+snd = weapons\abakan\sparco_abakan_check_ammo
+tm = 4
+
+[ak]
+snd = weapons\ak\sparco_ak_check_ammo
+tm = 3
+
+[aks]
+snd = weapons\ak\sparco_ak_check_ammo
+tm = 3
+
+[ace21]
+snd = weapons\ace21\sparco_ace21_check_ammo
+tm = 4
+
+[aek]
+snd = weapons\aek\sparco_aek_check_ammo
+tm = 4
+
+[ak12]
+snd = weapons\ak12\sparco_ak12_check_ammo
+tm = 5.33
+
+[ak74]
+snd = weapons\ak74\sparco_ak74_check_ammo
+tm = 5.23
+
+[mp5sd]
+snd = weapons\mp5sd\sparco_mp5sd_check_ammo
+tm = 3
+```
 ### Contact
 Discord: Sparco#3596

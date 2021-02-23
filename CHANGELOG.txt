@@ -1,0 +1,23 @@
+19/Feb/21
+=========
+ + Fixed abakan, ace21 anims
+ + Added aek971 anim
+ + All audio files have been converted to 44.1k/mono
+ + Moved all hand motions into single omf file
+
+18/Feb/21
+=========
+ + Added ak/aks anims and audio.
+ + Weapons mp5sd, and 9a91 (and their audio) have been updated. They can be considered done.
+ side note: I figured out the correct way to animate the guns, hopefully things will go smoothly in coming updates :D
+
+17/Jan/21
+=========
+ + Weapons 9a91, an94, and ace21 are compiled and ready to be used/tested ingame.
+   \_ Audio for these weapons also have been synced.
+ + The aek971 is giving me alot of trouble when trying to translate from blender into stalker's engine. Will possibly have to animate from scratch. skipping for now.
+
+15/Jan/21
+=========
+ + All anims as of this date are compiled at 30fps, will change to 60fps on finished products.
+ + Audio may not be synced, fine-tuning will be required.
