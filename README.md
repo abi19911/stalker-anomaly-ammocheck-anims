@@ -1,12 +1,12 @@
 # stalker-anomaly-ammocheck-anims
-concept animation designed for Zukuu's ammo check addon; [Moddb](https://www.moddb.com/mods/stalker-anomaly/addons/ammocheck-rc18), [Github](https://github.com/WrkX/Stalker_Ammo_Check).
+Custom check ammo animations designed for Zukuu's ammo check addon; [Moddb](https://www.moddb.com/mods/stalker-anomaly/addons/ammocheck-rc18), [Github](https://github.com/WrkX/Stalker_Ammo_Check).
 
 ### Weapons
 9a91 | abakan(an94) | ace21 | aek971 | mp5sd | ak/aks | ak12 | ak74
 
 ### Script entries
 ```
-gamedata/configs/define.ltx
+gamedata/configs/defines.ltx
 ===========================
 --9a91
 anm_ammoCheck_wpn_9a91				= sparco_hands_9a91_check_ammo, sparco_9a91_check_ammo, 1
