@@ -2,7 +2,7 @@
 Custom check ammo animations designed for Zukuu's ammo check addon; [Moddb](https://www.moddb.com/mods/stalker-anomaly/addons/ammocheck-rc18), [Github](https://github.com/WrkX/Stalker_Ammo_Check).
 
 ### Weapons
-9a91 | abakan(an94) | ace21 | aek971 | mp5sd | ak/aks | ak12 | ak74
+9a91 | abakan(an94) | ace21 | aek971 | mp5sd | ak/aks | ak12 | ak74 | aks74 | ak74m
 
 ### Script entries
 ```
@@ -20,10 +20,12 @@ anm_ammoCheck_wpn_aks_gl			= sparco_hands_ak_check_ammo_gl, sparco_ak_check_ammo
 --ace21
 anm_ammoCheck_wpn_ace21				= sparco_hands_ace21_check_ammo, sparco_ace21_check_ammo, 1
 --aek
-anm_ammoCheck_wpn_aek				= sparco_hands_aek971_check_ammo, sparco_aek971_check_ammo, 1
-anm_ammoCheck_wpn_aek_camo			= sparco_hands_aek971_check_ammo, sparco_aek971_check_ammo, 1
-anm_ammoCheck_wpn_aek_gl			= sparco_hands_aek971_check_ammo_gl, sparco_aek971_check_ammo, 1
-anm_ammoCheck_wpn_aek_gl			= sparco_hands_aek971_check_ammo_gl, sparco_aek971_check_ammo, 1
+anm_ammoCheck_wpn_aek							= sparco_hands_aek971_check_ammo, sparco_aek971_check_ammo, 1
+anm_ammoCheck_wpn_aek_camo						= sparco_hands_aek971_check_ammo, sparco_aek971_check_ammo, 1
+anm_ammoCheck_wpn_aek_duty						= sparco_hands_aek971_check_ammo, sparco_aek971_check_ammo, 1
+anm_ammoCheck_wpn_aek_gl						= sparco_hands_aek971_check_ammo_gl, sparco_aek971_check_ammo, 1
+anm_ammoCheck_wpn_aek_camo_gl					= sparco_hands_aek971_check_ammo_gl, sparco_aek971_check_ammo, 1
+anm_ammoCheck_wpn_aek_duty_gl					= sparco_hands_aek971_check_ammo_gl, sparco_aek971_check_ammo, 1
 --ak12
 anm_ammoCheck_wpn_ak12				= sparco_hands_ak12_check_ammo, sparco_ak12_check_ammo, 1
 anm_ammoCheck_wpn_ak12_gl			= sparco_hands_ak12_check_ammo_gl, sparco_ak12_check_ammo, 1
@@ -34,6 +36,16 @@ anm_ammoCheck_wpn_ak74				= sparco_hands_ak74_check_ammo, sparco_ak74_check_ammo
 anm_ammoCheck_wpn_ak74_gl			= sparco_hands_ak74_check_ammo_gl, sparco_ak74_check_ammo, 1
 anm_ammoCheck_wpn_ak74_empty			= sparco_hands_ak74_check_ammo, sparco_ak74_check_ammo_empty, 1
 anm_ammoCheck_wpn_ak74_gl_empty			= sparco_hands_ak74_check_ammo_gl, sparco_ak74_check_ammo_empty, 1
+--ak74m		
+anm_ammoCheck_wpn_ak74m				= sparco_hands_aks74_check_ammo, sparco_aks74_check_ammo, 1
+anm_ammoCheck_wpn_ak74m_empty			= sparco_hands_aks74_check_ammo, sparco_aks74_check_ammo_empty, 1
+anm_ammoCheck_wpn_ak74m_gl			= sparco_hands_aks74_check_ammo_gl, sparco_aks74_check_ammo, 1
+anm_ammoCheck_wpn_ak74m_gl_empty		= sparco_hands_aks74_check_ammo_gl, sparco_aks74_check_ammo_empty, 1
+--ak74m_alternatives
+anm_ammoCheck_wpn_ak74m_alternative		= sparco_hands_ak74m_sk4_check_ammo, sparco_ak74m_sk4_check_ammo, 1
+anm_ammoCheck_wpn_ak74m_alternative_empty	= sparco_hands_ak74m_sk4_check_ammo, sparco_ak74m_sk4_check_ammo, 1
+anm_ammoCheck_wpn_ak74m_alternative_gl		= sparco_hands_ak74m_sk4_check_ammo_gl, sparco_ak74m_sk4_check_ammo, 1
+anm_ammoCheck_wpn_ak74m_alternative_gl_empty	= sparco_hands_ak74m_sk4_check_ammo_gl, sparco_ak74m_sk4_check_ammo, 1
 --mp5sd
 anm_ammoCheck_wpn_mp5sd				= sparco_hands_mp5sd_check_ammo, sparco_mp5sd_check_ammo, 1
 anm_ammoCheck_wpn_mp5sd_empty			= sparco_hands_mp5sd_check_ammo, sparco_mp5sd_check_ammo, 1
@@ -54,9 +66,7 @@ tm = 4
 snd = weapons\ak\sparco_ak_check_ammo
 tm = 3
 
-[aks]
-snd = weapons\ak\sparco_ak_check_ammo
-tm = 3
+[aks]:ak
 
 [ace21]
 snd = weapons\ace21\sparco_ace21_check_ammo
@@ -73,6 +83,13 @@ tm = 5.33
 [ak74]
 snd = weapons\ak74\sparco_ak74_check_ammo
 tm = 5.23
+
+[aks74]
+snd = weapons\ak74\sparco_aks74_check_ammo
+tm = 4.87
+
+[ak74m]:aks74
+[ak74m_alternative]:aks74
 
 [mp5sd]
 snd = weapons\mp5sd\sparco_mp5sd_check_ammo
