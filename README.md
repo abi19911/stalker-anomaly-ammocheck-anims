@@ -2,7 +2,7 @@
 Custom check ammo animations designed for Zukuu's ammo check addon; [Moddb](https://www.moddb.com/mods/stalker-anomaly/addons/ammocheck-rc18), [Github](https://github.com/WrkX/Stalker_Ammo_Check).
 
 ### Weapons
-9a91 | abakan(an94) | ace21 | aek971 | mp5sd | ak/aks | ak12 | ak74 | aks74 | ak74m
+9a91 | abakan(an94) | ace21 | aek971 | mp5sd | ak/aks | ak12 | ak74 | aks74 | ak74m | m16 | sr25
 
 ### Script entries
 ```
@@ -52,6 +52,16 @@ anm_ammoCheck_wpn_ak74m_alternative						= sparco_hands_ak74m_sk4_check_ammo, sp
 anm_ammoCheck_wpn_ak74m_alternative_empty			= sparco_hands_ak74m_sk4_check_ammo, sparco_ak74m_sk4_check_ammo, 1
 anm_ammoCheck_wpn_ak74m_alternative_gl				= sparco_hands_ak74m_sk4_check_ammo_gl, sparco_ak74m_sk4_check_ammo, 1
 anm_ammoCheck_wpn_ak74m_alternative_gl_empty	= sparco_hands_ak74m_sk4_check_ammo_gl, sparco_ak74m_sk4_check_ammo, 1
+--m16
+anm_ammoCheck_wpn_m16												  = sparco_hands_m16_check_ammo, sparco_m16_check_ammo, 1
+anm_ammoCheck_wpn_m16_empty									  = sparco_hands_m16_check_ammo, sparco_m16_check_ammo_empty, 1
+anm_ammoCheck_wpn_m16_gl										  = sparco_hands_m16_check_ammo_gl, sparco_m16_check_ammo, 1
+anm_ammoCheck_wpn_m16_gl_empty							  = sparco_hands_m16_check_ammo_gl, sparco_m16_check_ammo_empty, 1
+--sr25
+anm_ammoCheck_wpn_sr25											  = sparco_hands_sr25_check_ammo, sparco_sr25_check_ammo, 1
+anm_ammoCheck_wpn_sr25_empty								  = sparco_hands_sr25_check_ammo, sparco_sr25_check_ammo_empty, 1
+anm_ammoCheck_wpn_sr25_gl										  = sparco_hands_sr25_check_ammo_gl, sparco_sr25_check_ammo, 1
+anm_ammoCheck_wpn_sr25_gl_empty							  = sparco_hands_sr25_check_ammo_gl, sparco_sr25_check_ammo_empty, 1
 --mp5sd
 anm_ammoCheck_wpn_mp5sd												= sparco_hands_mp5sd_check_ammo, sparco_mp5sd_check_ammo, 1
 anm_ammoCheck_wpn_mp5sd_empty									= sparco_hands_mp5sd_check_ammo, sparco_mp5sd_check_ammo, 1
@@ -96,6 +106,14 @@ tm = 4.87
 
 [ak74m]:aks74
 [ak74m_alternative]:aks74
+
+[m16]
+snd = weapons\m16\sparco_m16_check_ammo
+tm = 5.33
+
+[sr25]
+snd = weapons\m16\sparco_sr25_check_ammo
+tm = 4.5
 
 [mp5sd]
 snd = weapons\mp5sd\sparco_mp5sd_check_ammo
